@@ -1,6 +1,6 @@
 <?php
 
-    include_once "./php/landing.php";
+    include_once "./landing.php";
 
 
 ?>

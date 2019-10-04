@@ -1,5 +1,6 @@
  <?php
-    include_once "../header/header.php";
+    // include_once "../header/header.php";
+    include_once "./header.php";
 ?>
     <div id="bill">
         <div>
@@ -51,5 +52,5 @@
     </div>
 <?php
     
-    include_once "../footer/footer.php";
+    include_once "./footer/footer.php";
 ?>

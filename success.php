@@ -1,5 +1,6 @@
  <?php
-    include_once "../header/header.php";
+    // include_once "../header/header.php";
+    include_once "./header.php";
 ?>
 <div id="success">
  <h2>Thank you for contacting Blue Ridge Propane!</h2>

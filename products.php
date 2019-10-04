@@ -1,10 +1,11 @@
 <?php
-    include_once "../header/header.php"
+    // include_once "../header/header.php"
+    include_once "./header.php";
 ?>
 <div class="products">
     <h1>Products</h1>
     <div class="product-section" id="gas-logs">
-        <img src="./media/gaslogs.jpg" alt="gas logs">
+        <img src="./products/media/gaslogs.jpg" alt="gas logs">
         <h3>Gas Logs</h3>
         <ul>
             <a href="http://www.realfyre.com/fyres/golden-oak-designer/ " target="_blank"><li>Peterson Real Fyre</li></a>
@@ -16,7 +17,7 @@
         </ul>
     </div>
         <div class="product-section" id="gas-inserts">
-            <img src="./media/gas-insert.png" alt="gas insert">
+            <img src="./products/media/gas-insert.png" alt="gas insert">
             <h3>Gas Inserts</h3>
             <ul>
                 <a href="https://buckstove.com/gas-stoves" target="_blank"><li>Buck Stove</li></a>
@@ -26,14 +27,14 @@
             </ul>
     </div>
         <div class="product-section" id="gas-heaters">
-            <img src="./media/gas-heater.jpg" alt="">
+            <img src="./products/media/gas-heater.jpg" alt="">
             <h3>Gas Heaters</h3>
             <ul>
                 <a href="http://empirezoneheat.com/products/vent-free-room-heaters/" target="_blank"><li>Hearthrite</li></a>
             </ul>
         </div>
         <div class="product-section" id="gas-firepit">
-            <img src="./media/fire-pit.png" alt="fire pit">
+            <img src="./products/media/fire-pit.png" alt="fire pit">
             <h3>Gas Fire Pits</h3>
             <ul>
                 <a href="http://americanfyredesigns.com/fire-pits_fire-urns/fire-pits/" target="_blank"><li>American Fyre Designs</li></a>
@@ -44,7 +45,7 @@
             </ul>
         </div>
         <div class="product-section" id="gas-grill">
-            <img src="./media/gas-grill.jpg" alt="gas grill">
+            <img src="./products/media/gas-grill.jpg" alt="gas grill">
             <h3>Gas Grills</h3>
             <ul>
                 <a href="http://www.newphoenixgrills.com/" target="_blank"><li>Phoenix</li></a>
@@ -54,7 +55,7 @@
             </ul>
         </div>
         <div class="product-section" id="free-standing">
-            <img src="./media/free-standing.png" alt="free standing stove">
+            <img src="./products/media/free-standing.png" alt="free standing stove">
             <h3>Free Standing Stove</h3>
             <ul>
                 <a href="http://www.americanhearth.com/products/cast-iron-stoves/" target="_blank"><li>Empire</li></a>
@@ -65,14 +66,14 @@
             </ul>
         </div>
         <div class="product-section" id="waterheater-tank">
-            <img src="./media/tank-water-heater.jpg" alt="water heater with tank">
+            <img src="./products/media/tank-water-heater.jpg" alt="water heater with tank">
             <h3>Water Heater (Tank type)</h3>
             <ul>
                 <a href="https://www.bradfordwhite.com/" target="_blank"><li>​Bradford White</li></a>
             </ul>
         </div>
         <div class="product-section" id="waterheater-tankless">
-            <img src="./media/tankless.jpg" alt="tankless water heater">
+            <img src="./products/media/tankless.jpg" alt="tankless water heater">
             <h3>Tankless Water Heaters</h3>
             <ul>
                 <a href="https://www.rinnai.us/" target="_blank"><li>Rinnai</li></a>
@@ -80,7 +81,7 @@
             </ul>
         </div>
         <div class="product-section" id="outdoor-patio">
-            <img src="./media/patio-heater.jpg" alt="patio heater">
+            <img src="./products/media/patio-heater.jpg" alt="patio heater">
             <h3>Outdoor Patio Heaters</h3>
             <ul>
                 <a href="https://www.bromicheatingusa.com/Platinum-Gas-Series.htm" target="_blank"><li>​Bromic</li></a>
@@ -88,14 +89,14 @@
             </ul>
         </div>
         <div class="product-section" id="pool-heaters">
-            <img src="./media/pool-heater.jpg" alt="pool heater">
+            <img src="./products/media/pool-heater.jpg" alt="pool heater">
             <h3>Pool Heaters</h3>
             <ul>
                 <a href="https://www.jandy.com/en/products/heaters/legacy?source=adwords&keyword=legacy%20pool%20heater&matchtype=b&adpos=1t1&network=g&device=c&devicemodel=&placement=&utm_source=google&utm_medium=cpc&utm_term=Legacy%20Pool%20Heater&gclid=CjwKEAjwsMu5BRD7t57R1P2HwBgSJABrtj-ReMH2dXyB9TdH_AubA_zWiMao67jzboWAdNZacdz0QRoCABjw_wcB" target="_blank"><li>Jandy​</li></a>
             </ul>
         </div>
         <div class="product-section" id="vented-room">
-            <img src="./media/wall-heater.png" alt="wall heater">
+            <img src="./products/media/wall-heater.png" alt="wall heater">
             <h3>Vented Room Heaters</h3>
             <ul>
                 <a href="https://www.rinnai.us/gas-home-heating/direct-vent-furnaces" target="_blank"><li>Rinnai</li></a>
@@ -104,7 +105,7 @@
             </ul>
         </div>
         <div class="product-section" id="shop-heaters">
-            <img src="./media/shop-heater.png" alt="">
+            <img src="./products/media/shop-heater.png" alt="">
             <h3>Shop Heaters</h3>
             <ul>
                 <a href="http://www.reznorhvac.com/en/na/unit-heaters" target="_blank"><li>Reznor</li></a>
@@ -112,7 +113,7 @@
             </ul>
         </div>
         <div class="product-section" id="firebox">
-            <img src="./media/fire-box.png" alt="fire box">
+            <img src="./products/media/fire-box.png" alt="fire box">
             <h3>Fire Box</h3>
             <ul>
                 <a href="https://www.majesticproducts.com/browse/outdoor-fireplaces" target="_blank"><li>Majestic</li></a>
@@ -121,7 +122,7 @@
             </ul>
         </div>
         <div class="product-section" id="gas-lights">
-            <img src="./media/gas-light.jpg" alt="outdoor gas light">
+            <img src="./products/media/gas-light.jpg" alt="outdoor gas light">
             <h3>Gas Lights</h3>
             <ul>
                 <a href="https://www.mhpgrills.com/everglow-gas-lights/" target="_blank"><li>Everglow</li></a>
@@ -129,5 +130,5 @@
         </div>
 </div>
 <?php
-    include_once "../footer/footer.php"
+    include_once "./footer/footer.php"
 ?>

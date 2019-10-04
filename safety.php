@@ -1,5 +1,6 @@
  <?php
-    include_once "../header/header.php";
+    // include_once "../header/header.php";
+    include_once "./header.php";
 ?>
     <div id="safety">
         <div id="safe-title"> 
@@ -11,7 +12,7 @@
                 
             </div>
             <div>
-                <img src="/media/phone-call.png" alt="" class="safe-img">
+                <img src="./media/phone-call.png" alt="" class="safe-img">
                 <h3>&#x25BC Learn more &#x25BC</h3>
             </div>
             <div id="smell-exp" class="exp">
@@ -32,7 +33,7 @@
                 <h2>How to shut your propane take off</h2>
             </div>
              <div>
-                <img src="/media/brptank.png" alt="" class="safe-img">
+                <img src="./media/brptank.png" alt="" class="safe-img">
                 <h3>&#x25BC Learn more &#x25BC</h3>
             </div>
             <div id="shutoff-exp" class="exp">
@@ -44,7 +45,7 @@
                 <h2>How to read your propane tank gauge</h2>
             </div>
              <div>
-                <img src="/media/guage.png" alt="" class="safe-img">
+                <img src="./media/guage.png" alt="" class="safe-img">
                 <h3>&#x25BC Learn more &#x25BC</h3>
             </div>
             <div id="guage-exp" class="exp">
@@ -56,7 +57,7 @@
                 <h2>Propane and weather safety</h2>
             </div>
              <div>
-                <img src="/media/weather.png" alt="" class="safe-img">
+                <img src="./media/weather.png" alt="" class="safe-img">
                 <h3>&#x25BC Learn more &#x25BC</h3>
             </div>
             <div id="weather-exp" class="exp">
@@ -78,11 +79,11 @@
          <div id="additional">
             <h3>Addtional Propane Safety Links</h3>
             <div class="safe-links">
-                <img src="/media/nfpa100x100.png" alt="">
+                <img src="./media/nfpa100x100.png" alt="">
                 <a href="https://www.nfpa.org/Public-Education/By-topic/Safety-in-the-home/Gasoline-and-propane">NFPA Propane Safety</a>
             </div>
             <div class="safe-links">
-                <img src="/media/propane100x100.png" alt="">
+                <img src="./media/propane100x100.png" alt="">
                 <a href="https://propane.com/safety/">Propane.com</a>
             </div>
 
@@ -90,5 +91,5 @@
     </div>
 <?php
     
-    include_once "../footer/footer.php";
+    include_once "./footer/footer.php";
 ?>

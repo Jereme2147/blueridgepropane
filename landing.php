@@ -1,6 +1,7 @@
 
  <?php
-    include_once "./header/header.php";
+    // include_once "./header/header.php";
+    include_once "./header.php";
 ?>
     <div id="landing">
         <div id="landing-header">

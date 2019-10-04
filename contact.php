@@ -1,8 +1,9 @@
  <?php
-    include_once "../header/header.php";
+    // include_once "../header/header.php";
+    include_once "./header.php";
 ?>
 <div id="banner">
-    <img src="/media/brpoffice.png" alt="blue ridge propane delivery trucks" />
+    <img src="./media/brpoffice.png" alt="blue ridge propane delivery trucks" />
 </div>
 <div id="contact">
     <h1>Contact Blue Ridge Propane here for service, delivery, products or more information</h1>
@@ -63,5 +64,5 @@
 
 <?php
     
-    include_once "../footer/footer.php";
+    include_once "./footer/footer.php";
 ?>
