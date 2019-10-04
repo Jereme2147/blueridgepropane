@@ -11,11 +11,13 @@
         </div>
         <!-- to be removed at some point -->
 
-        <div class="landing-div no-pic">
+        <div class="landing-div no-pic bbb-section">
             <h3>Your only <strong>locally</strong> owned and
             operated full service propane company based in Avery
             County NC and serving Carter County TN by people you
             know from your community.</h3>
+            <img src="./media/bbb.png" alt="better business logo">
+            <h2><a href="https://www.bbb.org/us/nc/newland/profile/propane/blue-ridge-propane-inc-0473-92004002">A+ Rated by Better Business Bureau</a></h2>
         </div>
         <div class="landing-div" id="hours">
             <img src="./media/clock.png" alt="blue ridge propane nc office hours">

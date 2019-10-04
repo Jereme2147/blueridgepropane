@@ -1,0 +1,150 @@
+$red: rgba(163, 22, 33, 1);
+$white: rgba(252, 247, 248, 1);
+$grey: rgba(206, 211, 220, 1);
+$blue: rgba(78, 128, 152, 1);
+$black: rgba(54, 54, 54, 1);
+$titles: "Muli", sans-serif;
+$menu: "Jaldi", sans-serif;
+$body: "Molengo", sans-serif;
+@mixin phone {
+    @media (max-width: 599px) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media (min-width: 600px) and (max-width: 949px) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: 950px) {
+        @content; 
+    }
+}
+.bbb-section {
+    img {
+        width: 30%;
+    }
+    a {
+        width: 100%;
+        text-align: center;
+        color: $black;
+    }
+    h2 a {
+        width: 100%;
+    }
+    h2 {
+        padding: 15px;
+    }
+}
+#hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid $red;
+    h3 {
+        text-align: center;
+    }
+    h2 {
+        text-shadow: 4px 4px 1px $grey;
+    }
+    @include phone() {
+        img {
+            width: 100%;
+        }
+    }
+}
+#landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.landing-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    color: $black;
+    background: linear-gradient(to bottom, rgba(206,211,220,1) 23%,rgba(252,247,248,1) 100%); 
+    padding: 10% 0 10% 0;
+    width: 100%;
+    @include desktop() {
+        padding: 5% 0 5% 0;
+        width: 100%;
+        font-size: 25px;
+
+        h3 {
+            width: 80%;
+        }
+    }
+    iframe {
+        width: 90%;
+        height: 50vh;
+        box-shadow: 1px 1px 1px $black, -1px -1px 1px $white;
+
+    }
+}
+
+#landing-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $grey;
+    color: $black;
+    font-size: 12px;
+    text-transform: uppercase;
+    
+        img{
+            // width: 30%;
+            // border-radius: 50%;
+            // height: 274px;
+            // width: 274px;
+            padding-top: 10px;
+        }  
+        h1 {
+            text-align: center;
+            border-bottom: 1px solid $red;
+        }
+    @include desktop() {
+        // flex-direction: row;
+        width: 80%;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        // padding: 20px 0 0 0;
+    }
+}
+.landing-imgs {
+    width: 100vw;
+}
+#mobile-page {
+    display: none;
+    @include desktop() {
+        display: flex;
+    }
+
+    div {
+        @include desktop() {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        align-self: center;
+        // padding: 5% 10% 5% 10%;
+        h3 {
+            margin: 0 0 0 30px;
+            color: white;
+            text-shadow: 3px 3px 3px $black, -2px -2px 1px $grey;
+        }
+    }
+
+    }
+    
+}
+.no-pic {
+    border-bottom: 2px solid $red;
+}
+#phone-map {
+    border-radius: 20px;
+    @include desktop() {
+        display: none;
+    }
+}
