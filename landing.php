@@ -5,7 +5,7 @@
 ?>
     <div id="landing">
         <div id="landing-header">
-            <img src="./media/trucksrear.png" alt="blue ridge propane delivery trucks lined up" class="landing-imgs"/>
+            <img src="./media/trucksrear.jpg" alt="blue ridge propane delivery trucks lined up" class="landing-imgs"/>
             <h1>Serving the High Countries Propane needs in Western NC and Eastern TN since 1992</h1>
             <img src="./media/mapsquare.png" alt="service area" id="phone-map" />
         </div>
@@ -33,7 +33,7 @@
         </div>
         
         <div >
-            <img src="./media/tanks2000.png" alt="Blue ridge propane nc large storage tanks" class="landing-imgs"/>
+            <img src="./media/tanks2000.jpg" alt="Blue ridge propane nc large storage tanks" class="landing-imgs"/>
         </div>
 
         <div class="landing-div">
