@@ -1,0 +1,22 @@
+[12-Mar-2019 08:41:58 America/Chicago] PHP Parse error:  syntax error, unexpected 'Customer' (T_STRING) in /home2/brpnc/public_html/php/mail.php on line 46
+[12-Mar-2019 08:41:58 America/Chicago] PHP Parse error:  syntax error, unexpected 'Customer' (T_STRING) in /home2/brpnc/public_html/php/mail.php on line 46
+[29-Mar-2019 14:05:56 America/Chicago] PHP Warning:  include_once(./header/header.php): failed to open stream: No such file or directory in /home2/brpnc/public_html/php/landing.php on line 3
+[29-Mar-2019 14:05:56 America/Chicago] PHP Warning:  include_once(): Failed opening './header/header.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home2/brpnc/public_html/php/landing.php on line 3
+[29-Mar-2019 14:05:56 America/Chicago] PHP Warning:  include_once(./footer/footer.php): failed to open stream: No such file or directory in /home2/brpnc/public_html/php/landing.php on line 58
+[29-Mar-2019 14:05:56 America/Chicago] PHP Warning:  include_once(): Failed opening './footer/footer.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home2/brpnc/public_html/php/landing.php on line 58
+[29-Mar-2019 14:06:22 America/Chicago] PHP Warning:  include_once(./header/header.php): failed to open stream: No such file or directory in /home2/brpnc/public_html/php/landing.php on line 3
+[29-Mar-2019 14:06:22 America/Chicago] PHP Warning:  include_once(): Failed opening './header/header.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home2/brpnc/public_html/php/landing.php on line 3
+[29-Mar-2019 14:06:22 America/Chicago] PHP Warning:  include_once(./footer/footer.php): failed to open stream: No such file or directory in /home2/brpnc/public_html/php/landing.php on line 58
+[29-Mar-2019 14:06:22 America/Chicago] PHP Warning:  include_once(): Failed opening './footer/footer.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home2/brpnc/public_html/php/landing.php on line 58
+[29-Mar-2019 14:07:13 America/Chicago] PHP Warning:  include_once(./header/header.php): failed to open stream: No such file or directory in /home2/brpnc/public_html/php/landing.php on line 3
+[29-Mar-2019 14:07:13 America/Chicago] PHP Warning:  include_once(): Failed opening './header/header.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home2/brpnc/public_html/php/landing.php on line 3
+[29-Mar-2019 14:07:13 America/Chicago] PHP Warning:  include_once(./footer/footer.php): failed to open stream: No such file or directory in /home2/brpnc/public_html/php/landing.php on line 58
+[29-Mar-2019 14:07:13 America/Chicago] PHP Warning:  include_once(): Failed opening './footer/footer.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home2/brpnc/public_html/php/landing.php on line 58
+[11-Jun-2019 01:34:35 America/Chicago] PHP Warning:  include_once(./header/header.php): failed to open stream: No such file or directory in /home2/brpnc/public_html/php/landing.php on line 3
+[11-Jun-2019 01:34:35 America/Chicago] PHP Warning:  include_once(): Failed opening './header/header.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home2/brpnc/public_html/php/landing.php on line 3
+[11-Jun-2019 01:34:35 America/Chicago] PHP Warning:  include_once(./footer/footer.php): failed to open stream: No such file or directory in /home2/brpnc/public_html/php/landing.php on line 58
+[11-Jun-2019 01:34:35 America/Chicago] PHP Warning:  include_once(): Failed opening './footer/footer.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home2/brpnc/public_html/php/landing.php on line 58
+[11-Jun-2019 01:34:41 America/Chicago] PHP Warning:  include_once(./header/header.php): failed to open stream: No such file or directory in /home2/brpnc/public_html/php/landing.php on line 3
+[11-Jun-2019 01:34:41 America/Chicago] PHP Warning:  include_once(): Failed opening './header/header.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home2/brpnc/public_html/php/landing.php on line 3
+[11-Jun-2019 01:34:41 America/Chicago] PHP Warning:  include_once(./footer/footer.php): failed to open stream: No such file or directory in /home2/brpnc/public_html/php/landing.php on line 58
+[11-Jun-2019 01:34:41 America/Chicago] PHP Warning:  include_once(): Failed opening './footer/footer.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home2/brpnc/public_html/php/landing.php on line 58
